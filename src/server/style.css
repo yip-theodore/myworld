@@ -1,0 +1,54 @@
+body {
+  padding: 20px 0px;
+  background-color: #fbfbfb;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 1fr;
+  grid-gap: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 10px;
+  font-weight: bold;
+}
+@media (min-width: 768px) {
+  body {
+    padding: 100px 60px;
+  }
+}
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+}
+/* a:hover div {
+  filter: brightness(0.9);
+} */
+a:hover div::after {
+  content: '';
+  display: block;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABpJREFUCB1jYGBgkARiVPD//39jVBEID7tKAKDeBpPVpe6LAAAAAElFTkSuQmCC);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+a:hover p::after {
+  content: '_';
+  /* margin-left: 1px; */
+}
+a:hover img {
+  /* transform: scale(1.1); */
+}
+div {
+  position: relative;
+  overflow: hidden;
+}
+img {
+  display: block;
+  width: 100%;
+  transition: transform 0.3s ease-out;
+}
+p {
+  margin: 0;
+  line-height: 1.5;
+  text-align: right;
+}

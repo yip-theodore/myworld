@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Welcome to my world!
+    link(rel="stylesheet", href="style.css")
+  body
+    each _, build in Array(builds)
+      - index = builds - build
+      a(href=`/${index}`)
+        div
+          img(src=`/${index}/preview.gif` onerror=`this.src="/${index}/preview.png"; this.onerror = null`)
+        p= ('000' + index).substr(-3)
