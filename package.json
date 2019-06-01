@@ -8,7 +8,8 @@
     "server": "node src/server",
     "dev": "concurrently --kill-others \"yarn server\" \"yarn client\"",
     "save": "webpack --config webpack.save.js",
-    "build": "node src/server/build.js"
+    "build": "node src/server/build.js",
+    "resize": "node src/server/resize.js"
   },
   "devDependencies": {
     "babel-loader": "^8.0.4",
