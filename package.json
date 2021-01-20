@@ -43,7 +43,7 @@
     "glsl-noise": "^0.0.0",
     "glslify": "^7.0.0",
     "glslify-import": "^3.1.0",
-    "gsap": "^2.0.2",
+    "gsap": "^3.6.0",
     "ify-loader": "^1.1.0",
     "nice-color-palettes": "^2.0.0",
     "pug": "^2.0.3",
