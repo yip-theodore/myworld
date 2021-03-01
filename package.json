@@ -47,7 +47,7 @@
     "ify-loader": "^1.1.0",
     "nice-color-palettes": "^2.0.0",
     "pug": "^2.0.3",
-    "three": "^0.99.0",
+    "three": "^0.125.0",
     "three-rounded-box": "^0.1.1"
   }
 }
