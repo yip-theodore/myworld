@@ -46,7 +46,7 @@
     "gsap": "^2.0.2",
     "ify-loader": "^1.1.0",
     "nice-color-palettes": "^2.0.0",
-    "pug": "^2.0.3",
+    "pug": "^3.0.1",
     "three": "^0.99.0",
     "three-rounded-box": "^0.1.1"
   }
